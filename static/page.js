@@ -26,7 +26,7 @@ module.exports = function (req, res, url) {
 		case '/cc': {
 			title = 'Character Creator';
 			attrs = {
-				data: process.env.SWF_URL + '/cc.swf', // data: 'cc_.swf',
+				data: process.env.SWF_URL + '/cc_fixed.swf', // data: 'cc_.swf',
 				type: 'application/x-shockwave-flash', id: 'char_creator', width: '100%', height: '100%',
 			};
 			params = {
@@ -66,7 +66,7 @@ module.exports = function (req, res, url) {
 				`m-${fUtil[query.noAutosave ? 'getNextFileId' : 'fillNextFileId']('movie-', '.xml')}`;
 			title = 'Video Editor';
 			attrs = {
-				data: process.env.SWF_URL + '/go_full.swf',
+				data: process.env.SWF_URL + '/go_full_fixed.swf',
 				type: 'application/x-shockwave-flash', width: '100%', height: '100%',
 			};
 			params = {
