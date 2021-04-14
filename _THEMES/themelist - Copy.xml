@@ -2,6 +2,7 @@
 <list version="1.0">
 	<fvm_meta theme_code="" is_biz="0" />
 	<theme id="custom" name="Comedy World" thumb="" cc_theme_id="custom" />
+	<theme id="ccpack" name="ServerePack" thumb="" cc_theme_id="custom" />
 	<theme id="business" name="business riendly" thumb="" cc_theme_id="shitness" />
 	<theme id="retro" name="Cartoon Classics" thumb="ann-stand.swf" cc_theme_id="retro" />
 	<theme id="vietnam" name="Jungle Warfare" thumb="" cc_theme_id="vietnam" />
